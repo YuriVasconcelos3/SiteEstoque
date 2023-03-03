@@ -1,0 +1,74 @@
+@charset "utf-8";
+
+.fundo{
+	background-image: url("../imagens/fundo_acrisan.png");
+	background-size: 100% 100%;
+	min-width: 100vw;
+	min-height: 100vh;
+	margin-top: -8px;	
+	margin-left: -8px;
+	position: absolute;
+}
+
+.fundo-login{
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	width: 18.5459940652819%;
+	background-color: #fff;
+	margin-top: 10%;
+	border-radius: 10px;
+	padding: 130px 50px 85px;
+	box-shadow: 5px 5px 15px rgba(0,0,0,0.8);
+}
+
+.titulo{
+	margin-top: -70px;
+	text-transform: uppercase;
+	text-align: center;
+	font-family: Arial, sans-serif;
+	color: #003a70;
+}
+
+.formulario{
+	margin-top: 40px;
+	text-transform: uppercase;
+	font-family: Arial, sans-serif;
+}
+
+.campo{
+	width: 120%;
+	margin-left: -25px;
+	border-radius: 5px;
+}
+
+.legenda{
+	margin-left: -25px;
+}
+
+.botao{
+	width: 123%;
+	height: 30px;
+	margin-left: -25px;
+	margin-top: 20px;
+	text-transform: uppercase;
+	color: #fff;
+	background-color: #003a70;
+	border-radius: 5px;
+}
+
+.erro{
+	border-radius: 5px;
+	font-family: DejaVu Sans Mono, monospace;
+	font-weight: bolder;
+	text-align: center;
+	background: #FF2D2D;
+	color: #fff;
+	width: 120%;
+	margin-left: -10%;
+	margin-bottom: -10%;
+}
+
+
+
+

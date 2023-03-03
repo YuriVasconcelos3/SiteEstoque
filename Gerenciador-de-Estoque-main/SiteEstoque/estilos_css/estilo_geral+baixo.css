@@ -1,0 +1,378 @@
+@charset "utf-8";
+
+.fundo{
+	background-image: url("../imagens/fundo_acrisan.png");
+		background-size: 100%;
+		min-width: 100vw;
+		min-height: 102vh;
+		margin-top: -8px;	
+		margin-left: -8px;
+		position: absolute;
+}
+
+body{ 
+	overflow-x: hidden;
+}
+
+.fundo-branco{
+	position: relative;
+	width: 70%;
+	background-color: #fff;
+	margin-top: 3%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 4%;
+	border-radius: 10px;
+	padding: 2%;
+	box-shadow: 5px 5px 15px rgba(0,0,0,0.8);
+}
+
+.resultado{
+	display: flex;
+	text-align: center;
+	justify-content: center;
+	position: relative;
+	flex-direction: row;
+	align-items: center;
+}
+
+.fundo-busca{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	vertical-align: center;
+	margin: 1%;
+	width: 29%;
+	padding: 1%;
+	background-color: rgb(85, 25, 85);
+	border-radius: 5px;
+	border: 1px solid rgb(126, 35, 126);
+	box-shadow: 3px 3px 3px rgba(0,0,0,0.4);
+}
+
+.bloco{
+	margin: 1%;
+	width: 97%;
+	padding: 1%;
+	font-family: Avantgarde, sans-serif;
+	word-wrap: break-word;
+	overflow: hidden;
+	background-color: #FFFFFF;
+	border-radius: 5px;
+	box-shadow: 3px 3px 3px rgba(0,0,0,0.4);
+	color: rgb(51, 50, 50);
+	text-align: center;
+	font-weight: bolder;
+}
+
+.nao-encontrado{
+	border-radius: 5px;
+	box-shadow: 3px 3px 3px rgba(0,0,0,0.4);
+	font-family: DejaVu Sans Mono, monospace;
+	font-weight: bolder;
+	width: 50%;
+	text-align: center;
+	padding: 1%;
+	background: #FF2D2D;
+	color: #fff;
+	margin: 1% auto 1% auto;
+}
+
+.titulo{
+	text-align: center;
+	font-family: Arial, sans-serif;
+}
+
+.areamenu{
+	display: flex;
+	margin-top: 1%;
+}
+
+.fechar{
+	margin-left: 1%;
+	padding: 0.5% 1% 0.5% 1%;
+	color: #fff;
+	font-family: Verdana;
+	font-weight: 600;
+	text-decoration: none;
+	font-size: 12pt;
+	background-color: rgb(85, 25, 85);
+	border-radius: 7px;
+	box-shadow: 3px 3px 3px  rgba(0, 0, 0, 0.5);
+}
+
+.pesquisas{
+	display: flex;
+	text-align: center;
+	justify-content: center;
+	position: relative;
+	flex-direction: row;
+	align-items: center;
+}
+
+.campo{
+	padding-bottom: 13px;
+}
+
+.caixa{
+	width: 70%;
+}
+
+.opcoes{
+	display:flex;
+	margin: 1% auto 0px auto;
+	justify-content: center;
+}
+
+
+.buscar{
+	margin-top: 2%;
+	min-width: 80px;
+	text-transform: uppercase;
+	color: #fff;
+	background-color: rgb(85, 25, 85);;
+	border: none;
+	border-radius: 5px;
+}
+
+.opcao{
+	width: 30px;
+	padding-right: 12px;
+	margin-top: -4px;
+	cursor: pointer;
+	margin-left: 10px;
+}
+
+.pesquisa{
+	font-family: Arial, sans-serif;
+}
+
+.dados{
+	margin-top: 2%;   
+}
+
+.tituloTabela{
+	cursor: pointer;
+	font-family: Arial,sans-serif;
+	word-wrap: break-word;
+	height: 6vh;
+}
+
+.baixo{
+	color: red;
+}
+
+table{
+	table-layout: fixed;
+	margin-top: 4%;
+	padding: 1%;
+	width: 100%;
+	border-radius: 10px;
+}
+
+th:hover{
+	transition: 0.3s;
+	background-color: #52ffaea6;
+}
+
+td{
+	text-align: center;
+	padding: 1.8%;
+	font-family: Trebuchet MS, sans-serif;
+	word-wrap: break-word;
+	font-size: 13pt;
+}
+
+.alinhamento{
+	margin-top: 3%;
+	display: flex;
+	position: relative;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	margin-bottom: 3%;
+}
+
+.button{
+	display: inline-block;
+	font-size: 14pt;
+	font-weight: 600;
+	background-color: rgb(85, 25, 85);;
+	color: white;
+	border-radius: 4px;
+	padding: 0.5% 1% 0.5% 1%;
+	box-shadow: 2px 3px 0 black;
+	cursor: pointer;
+	margin: auto;
+}
+
+html,body {
+	width: 100%;
+	height: 100%;
+}
+
+.bg-modal {
+	width: 25%;
+	height: 45%;
+	position:fixed;
+	margin-top: 100px;
+	margin-left: -800px;
+	z-index: 2;
+	top: -100%;
+	transition: 350ms;
+	border-radius: 4px;
+
+	background-color: #fff;
+	border: 2px solid #000;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+}
+
+.bg-modal2 {
+	width: 25%;
+	height: 45%;
+	position:fixed;
+	margin-top: 100px;
+	margin-left: -800px;
+	z-index: 2;
+	top: -100%;
+	transition: 350ms;
+	border-radius: 4px;
+
+	background-color: #fff;
+	border: 2px solid #000;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+}
+
+.bg-modal3 {
+	width: 15%;
+	height: 27%;
+	position:fixed;
+	margin-top: 100px;
+	margin-left: -800px;
+	z-index: 2;
+	top: -100%;
+	transition: 350ms;
+	border-radius: 4px;
+
+	background-color: #fff;
+	border: 2px solid #000;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+}
+
+.bg-modal4 {
+	width: 15%;
+	height: 27%;
+	position:fixed;
+	margin-top: 100px;
+	margin-left: -800px;
+	z-index: 2;
+	top: -100%;
+	transition: 350ms;
+	border-radius: 4px;
+
+	background-color: #fff;
+	border: 2px solid #000;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+}
+
+.bg-modal5 {
+	width: 15%;
+	height: 18%;
+	position:fixed;
+	margin-top: 100px;
+	margin-left: -800px;
+	z-index: 2;
+	top: -100%;
+	transition: 350ms;
+	border-radius: 4px;
+
+	background-color: #fff;
+	border: 2px solid #000;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+}
+
+.close {
+	font-size: 22px;
+	color: white;
+	transition: 350ms;
+	cursor: pointer;
+	border-radius: 4px;
+	background-color: rgb(85, 25, 85);;
+	position: absolute;
+	top: 0;
+	right: 0;
+	margin-top: 0.5px;
+	margin-right: 0.5px;
+}
+
+.modal span:houver {
+	color: #990000;
+	transition:350ms;
+}
+
+.imagem{
+	width: 50%;
+	margin-left:25%;
+}
+
+.voltar{
+	margin: auto;
+	margin-top: 2px;
+	min-width: 40%;
+	text-align: center;
+	color: #fff;
+	background-color: rgb(85, 25, 85);
+	border: none;
+	padding: 2%;
+	border-radius: 7px;
+	cursor: pointer;
+	text-decoration: none;
+	font-size: 10pt;
+}
+
+.botao1{
+	color: #fff;
+	background-color: rgb(85, 25, 85);
+	min-width: 70%;
+	border: none;
+	padding: 2%;
+	border-radius: 7px;
+	cursor: pointer;
+	margin: auto;
+	margin-top: 2px;
+	margin-left: 2px;
+}
+
+.botao2{
+	color: #fff;
+	background-color: rgb(85, 25, 85);
+	min-width: 70%;
+	border: none;
+	padding: 2%;
+	border-radius: 7px;
+	cursor: pointer;
+	margin: auto;
+	margin-top: 2px;
+	margin-left: 2px;
+}
+
+.botoeslado{
+	display: inline-flex;
+	width: 50%;
+	margin-top: 2%;
+}

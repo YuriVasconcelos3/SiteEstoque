@@ -1,0 +1,40 @@
+@charset "utf-8";
+
+@media screen and (min-width: 550px) and (max-width: 860px){
+    .opcoes{
+    	margin-top: 4%
+    }
+
+    .titulo{
+    	font-size: 15pt;
+    }
+
+    figcaption{
+    	font-size: 12pt;
+    }
+}
+
+@media screen and (max-width: 550px){
+	.alinhamento{
+		display: flex;
+		flex-direction:column;
+	}
+
+	.imagem{
+		width: 30%;
+		margin-left: 35%;
+	}
+	
+	figure{
+		margin-bottom: 10%;
+	}
+
+	figcaption{
+		margin-top: 5%;
+	}
+	
+	.fundo{
+		background-image: url("../imagens/fundo_mobile.png");
+	}
+}
+

@@ -1,0 +1,39 @@
+@charset "utf-8";
+
+@media screen and (max-width: 860px){
+	.fundo-login{
+		display:flex;
+		flex-direction: column;
+		width: 50vw;
+		height: 20vh;
+		margin:  auto;
+	}
+
+	.titulo{
+		margin-top: -90px;
+	}
+
+	.botao{
+		width: 120%;
+		margin-left: -10%;
+		margin-top: -1%;
+	}
+
+	.campo{
+		width: 120%;
+		margin-left: -10%;
+	}
+
+	.fundo{
+		display: flex;
+		flex-direction:column;
+		justify-content:center;
+	}
+}
+
+@media screen and (max-width: 530px){
+	.fundo{
+		background-image: url("../imagens/fundo_mobile.png");
+	}
+}
+

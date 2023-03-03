@@ -1,0 +1,128 @@
+ @charset "utf-8";
+
+.fundo{
+	background-image: url("../imagens/fundo_acrisan.png");
+	background-size: 100% 100%;
+	min-width: 100vw;
+	min-height: 100vh;
+	margin-top: -8px;
+	margin-left: -8px;
+	position: absolute;
+}
+
+.areamenu{
+	display: flex;
+	margin-top: 1%;
+	margin-bottom: 2%;
+}
+
+.menu{
+	margin-left: 1%;
+   	padding: 0.5% 1% 0.5% 1%;
+	color: #fff;
+	font-family: Verdana;
+	font-weight: 600;
+	text-decoration: none;
+	font-size: 12pt;
+	background-color: #003a70;
+	border-radius: 7px;
+	box-shadow: 3px 3px 3px  rgba(0, 0, 0, 0.5);
+}
+
+.botoeslado{
+	display: inline-flex;
+	width: 50%;
+	margin-top: 2%;
+}
+
+.voltar{
+	margin-left: -20%;
+	min-width: 40%;
+	text-align: center;
+	color: #fff;
+	background-color: #003a70;
+	border: none;
+	padding: 2%;
+	border-radius: 7px;
+	cursor: pointer;
+	text-decoration: none;
+	font-size: 10pt;
+}
+
+.fundo-branco{
+	position: relative;
+	width: 30%;
+	background-color: #fff;
+	margin: 10% auto 4% auto;
+	border-radius: 10px;
+	padding: 2%;
+	box-shadow: 5px 5px 15px rgba(0,0,0,0.8);
+	min-width: 200px;
+}	
+
+.fundo-branco h2{
+	text-align: center;
+	font-family: Arial, sans-serif;
+	text-transform: uppercase;
+}
+
+.fundo-branco form{
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	font-family: Arial, sans-serif;
+	text-align: center;
+}
+
+.botao1{
+	margin-right: -20%;
+	margin-left: 40%;
+	color: #fff;
+	background-color: #003a70;
+	min-width: 70%;
+	border: none;
+	padding: 2%;
+	border-radius: 7px;
+	cursor: pointer;
+}
+
+.botao2{
+	color: #fff;
+	background-color: #003a70;
+	min-width: 70%;
+	border: none;
+	padding: 2%;
+	border-radius: 7px;
+	cursor: pointer;
+}
+
+.erro{
+	border-radius: 5px;
+	font-family: DejaVu Sans Mono, monospace;
+	font-weight: bolder;
+	text-align: center;
+	background: #FF2D2D;
+	color: #fff;
+	width: 100%;
+	margin: auto;
+}
+
+.sucesso{
+	border-radius: 5px;
+	font-family: DejaVu Sans Mono, monospace;
+	font-weight: bolder;
+	text-align: center;
+	background: #00FF72;
+	color: #2f2f2f;
+	width: 70%;
+	margin: auto;
+}
+
+.entrada{
+	width: 50%;
+}
+
+form{
+	text-align:center;
+}
+

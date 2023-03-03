@@ -1,0 +1,86 @@
+@charset "utf-8";
+
+@media screen and (max-width: 860px){
+	.pesquisas{
+		display: flex;
+		flex-direction: column;
+		margin: auto;
+		width: 49%;
+	}
+
+	.campo{
+		display: flex;
+		flex-direction: column;
+	}
+
+	.pesquisa{
+		margin: auto;
+	}
+
+	.caixa{
+		width: 120%;
+		margin-left: -13.5%;
+		padding: 1.75%;
+	}
+	
+	.seta-direita{
+		margin-top: 40vh;
+		background-image: url("../imagens/mobile_ebe.png");
+		height: 120px;
+	}
+
+	.seta-esquerda1{
+		margin-top: 40vh;
+		background-image: url("../imagens/mobile_ipe.png");
+		height: 120px;
+	}
+
+	.seta-esquerda2{
+		margin-top: 40vh;
+		background-image: url("../imagens/mobile_ege.png");
+		height: 120px;
+	}
+	
+	.fundo-branco{
+		width: 72vw;
+	}
+
+	.bloco{
+		font-size: 8pt;
+	}
+
+	.fundo-busca{
+		width: 45%;
+	}
+
+	.nao-encontrado{
+		width: 90%;
+		font-size: 8pt;
+		margin-top: 1%;
+	}
+
+	td{
+		padding: 1%;
+	}
+}
+
+@media screen and (max-width: 530px){
+	.tituloTabela{
+		font-size: 10px;
+	}
+	
+	td{
+		padding: 0.5%;
+	}
+	.fundo{
+		background-image: url("../imagens/fundo_mobile.png");
+	}
+}
+
+@media screen and (max-width: 600px){
+	td{
+		font-size: 11px;
+	}
+}
+
+

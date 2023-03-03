@@ -1,0 +1,39 @@
+@charset "utf-8";
+
+@media screen and (max-width: 860px){
+	.fundo{
+		display: flex;
+		flex-direction:column;
+		justify-content: center;
+
+	}
+
+	.formulario{
+		width: 72vw;
+	}
+
+	.entrada{
+		padding: 1.75%;
+	}
+
+	.seta-direita{
+		margin-top: 40vh;
+		background-image: url("../imagens/mobile_egd.png");
+		height: 20%;
+	}
+
+	.erro{
+		width: 90%;
+	}
+
+	.sucesso{
+		width: 90%;
+	}
+}
+
+@media screen and (max-width: 530px){
+	.fundo{
+		background-image: url("../imagens/fundo_mobile.png");
+	}
+}
+
